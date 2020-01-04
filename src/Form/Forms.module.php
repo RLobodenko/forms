@@ -24,10 +24,9 @@
 			public function validateForm(array &$form, FormStateInterface $form_state) {
 			}
 			public function submitForm(array &$form, FormStateInterface $form_state) {
-			}
-		}
-    
-	$email = $form_state->getValue('email');
+				
+				
+    $email = $form_state->getValue('email');
     $firstname = $form_state->getValue('first_name');
     $lastname = $form_state->getValue('last_name');
     $url = "https://api.hubapi.com/contacts/v1/contact/createOrUpdate/email/".$email."/?hapikey=26fac5ce-48aa-4097-91d0-cc55e7d8bbc0";
@@ -50,3 +49,7 @@
       ],
         'body' => $json
     ]);
+			}
+		}
+    
+	
