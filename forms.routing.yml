@@ -1,0 +1,7 @@
+forms.Forms.module:
+  path: '/forms/Forms.module'
+  defaults:
+    _form: 'forms\src\Form\Forms.module'
+    _title: 'forms'
+  requirements:
+    _permission: 'access content'
