@@ -14,7 +14,12 @@
 					'#title' => $this -> t('E-mail'),
 					'#placeholder' => $this -> t('email'),
 				);
-				$form['text'] = array(
+				$form['lastname'] = array(
+					'#type' => 'text',
+					'#title' => $this -> t('text'),
+					'#placeholder' => $this -> t('text'),
+				);
+				$form['firstname'] = array(
 					'#type' => 'text',
 					'#title' => $this -> t('text'),
 					'#placeholder' => $this -> t('text'),
