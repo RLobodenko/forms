@@ -17,7 +17,6 @@ if( isset($_POST['submit']) )
 	
 	$ans_hubspot = new ans_hubspot();
 	$ans_hubspot->contact_create($contact_data);
-	$ans_hubspot->list_assign_contact("2", $contact_data["email"]);
     
 }
 class ans_hubspot{
